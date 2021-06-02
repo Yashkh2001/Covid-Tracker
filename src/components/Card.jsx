@@ -43,7 +43,7 @@ const countries=FilterCountry.map(data=>{
         <div class="card-body">
         <img src={data.countryInfo.flag} alt="country-img" />
           <h4 class="card-title">{data.country}</h4>
-          <p class="card-text1 mt-5">Cases- {data.cases}</p>
+          <p class="card-text1 mt-5">Active- {data.cases}</p>
           <p class="card-text1 mt-2">Deaths- {data.deaths}</p>
           <p class="card-text1 mt-2">Recovered- {data.recovered}</p>
           <p class="card-text1 mt-2">Today's deaths- {data.todayDeaths}</p>
